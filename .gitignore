@@ -1,0 +1,75 @@
+# ==========================================
+# Node / Next.js
+# ==========================================
+node_modules/
+.next/
+.next.cache/
+out/
+dist/
+
+# Production
+build/
+.cache/
+
+# Test
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Vercel
+.vercel/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# ==========================================
+# Arduino / ESP32 Firmware Files
+# ==========================================
+/*.bin
+/*.elf
+/*.map
+*.ino.h
+*.ino.cpp
+
+# Arduino build cache
+ArduinoOutput/
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.pio/libdeps/
+.pio/build/
+
+# ==========================================
+# Misc
+# ==========================================
+*.tgz
+*.zip
+.tmp/
+temp/
